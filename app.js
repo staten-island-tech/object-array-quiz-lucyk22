@@ -42,3 +42,30 @@ const demDouble = presidents.filter(
 console.log(demDouble);
 
 //BONUS write a script to check if LBJ was a 2 term president. IF he was then alert("LBJ served two terms") else alert "LBJ was one and done"
+
+/*function lynCheck(name, terms) {               <=== um... i tried
+  if (name === "Lyndon Johnson") {
+    if (terms === 2) {
+      alert("LBJ served two terms");
+    } else {
+      alert("LBJ was one and done");
+    }
+    /* } else {
+    alert(
+      "That's not Lyndon B. Johnson"
+    );
+  }}*/
+
+const lyndon = presidents.filter(
+  (presidents) => presidents.name === "Lyndon Johnson"
+);
+
+if ((lyndon.terms = 2)) {
+  alert("LBJ served two terms");
+} else {
+  alert("LBJ was one and done");
+}
+
+console.log(lyndon);
+
+//sorry I know this is mad scuffed but hey, it works! :'D
