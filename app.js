@@ -60,7 +60,7 @@ const lyndon = presidents.filter(
   (presidents) => presidents.name === "Lyndon Johnson"
 );
 
-if ((lyndon.terms = 2)) {
+if (lyndon.terms == 2) {
   alert("LBJ served two terms");
 } else {
   alert("LBJ was one and done");
@@ -69,3 +69,4 @@ if ((lyndon.terms = 2)) {
 console.log(lyndon);
 
 //sorry I know this is mad scuffed but hey, it works! :'D
+//update: no it does not :(
